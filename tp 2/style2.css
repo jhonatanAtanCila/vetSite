@@ -1,0 +1,35 @@
+@media (min-width: 992px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header ul {
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  header a {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+
+  main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+}
